@@ -40,6 +40,7 @@
     <Button android:id="@+id/entrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
         android:text="ENTRAR"
         android:layout_margin="50dp"
         android:padding="20dp" />
