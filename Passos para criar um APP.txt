@@ -1,0 +1,17 @@
+Passos para a criação de um app:
+
+1- Criar a tela (layout)
+2- Identificar (colocar ID's) nos campos ou botoes que o usuario vai clicar ou digitar.
+3- Criar na Classe, os objetos dos campos identificados
+4- Ligar o layout com a classe (codigo) com o metodo findViewById()
+5- Desenvolver a logica
+
+Outro jeito:
+Ao inves de usar o metodo findViewById, é usando o viewBinding.
+O viewBinding cria uma vinculação entre o layout e o codigo
+Para isso temos que ir no arquivo gradle(app) e colocar esse codigo dentro da tag android:
+viewBinding {
+  enabled = true
+}
+E depois sincronizar o gradle.
+Dessa forma vamos ter dentro do viewBinding todos os elementos da nossa tela.
