@@ -7,6 +7,10 @@ android {
     namespace = "com.example.etimpamiappdozero"
     compileSdk = 35
 
+    viewBinding {
+        enable = true
+    }
+
     defaultConfig {
         applicationId = "com.example.etimpamiappdozero"
         minSdk = 24
