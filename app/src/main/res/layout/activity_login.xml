@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tela de Login"
+        android:text="Kayan"
         android:gravity="center"
         android:layout_margin="50dp"
         android:textSize="20sp"
